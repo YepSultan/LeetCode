@@ -1,6 +1,4 @@
 
-
-
 def solution(s):
 	result = 0
 	i = 0
@@ -10,7 +8,7 @@ def solution(s):
 		next1 = 0
 		
 	
-
+	
 		if s[i] == 'I': current = 1
 		elif s[i] == 'V': current = 5
 		elif s[i] == 'X': current = 10
