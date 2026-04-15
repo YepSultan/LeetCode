@@ -29,7 +29,6 @@ int romanToInt(string s) {
         else if (s[i+1] == 'M') next = 1000;
 
         // If current is smaller than next, subtract
-        // Otherwise just add
         if (current < next)
             result -= current;
         else
